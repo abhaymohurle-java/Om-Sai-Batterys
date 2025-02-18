@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="injecthtml.js" defer></script>  <!-- Link JS file with defer -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/logo-removebg-preview.png">
+</head>
+<body> 
+
+ <!-- Header Section -->
+ <div id="heddar"></div>
+    <!-- hero Content -->
+    <br><br><br><br>
+    <!-- hero section -->
+    <div class="container-fluid bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Quality Batteries for Every Need</h1>
+                    <p class="lead mb-4">Discover our extensive range of high-performance batteries for automotive, industrial, and commercial applications.</p>
+                    <div class="d-flex gap-3" style="margin-bottom: 30px;">
+                        <a href="#product-list" class="btn btn-success btn-lg">View Products</a>
+                        <a href="contact.html" class="btn btn-outline-success btn-lg">Contact Us</a>
+                    </div>
+                </div>
+                <br>
+                <div class="col-lg-6">
+                    <!-- <img src="img/battery-hero.jpg" alt="Battery Products" class="img-fluid rounded shadow"> -->
+                    <img src="img/om sai battry godon.webp" alt="Contact Us" class="img-fluid" 
+                    style="max-height: 330px; width: 100%; border-radius: 20px;"
+                    srcset="img/om sai battrys.webp 650w"
+                    sizes="(max-width: 650px) 100vw, 650px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Categories -->
+    <div class="container mt-4">
+        <h2 class="text-center">Product Categories</h2>
+        <!-- Off-canvas Menu Button -->
+        <button class="btn btn-success position-fixed top-50 start-0 translate-middle-y rounded-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#productMenu" aria-controls="productMenu">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <!-- Off-canvas Menu -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="productMenu" aria-labelledby="productMenuLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="productMenuLabel">Product Categories</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="list-unstyled">
+                    <li><a class="d-block p-2 text-decoration-none text-dark hover-warning" href="products.html?category=Car Batteries">Car Battery</a></li>
+                    <li><a class="d-block p-2 text-decoration-none text-dark hover-warning" href="products.html?category=Flat Plate Batteries">Flat Battery</a></li>
+                    <li><a class="d-block p-2 text-decoration-none text-dark hover-warning" href="products.html?category=General Purpose Batteries">General Battery</a></li>
+                    <li><a class="d-block p-2 text-decoration-none text-dark hover-warning" href="products.html?category=Industrial Inverter">Industrial Inverter</a></li>
+                    <li><a class="d-block p-2 text-decoration-none text-dark hover-warning" href="products.html?category=Inverter Batteries">Inverter Battery</a></li>
+                    <li><a class="d-block p-2 text-decoration-none text-dark hover-warning" href="products.html?category=Home Inverter">Home Inverter</a></li>
+                    <li><a class="d-block p-2 text-decoration-none text-dark hover-warning" href="products.html?category=Online UPS">Online Ups</a></li>
+                    <li><a class="d-block p-2 text-decoration-none text-dark hover-warning" href="products.html?category=Solar UPS">Solar Ups</a></li>
+                    <li><a class="d-block p-2 text-decoration-none text-dark hover-warning" href="products.html?category=Tabular Batteries">Tabular Battery</a></li>
+                    <li><a class="d-block p-2 text-decoration-none text-dark hover-warning" href="products.html?category=Two Wheeler Batteries">TwoWheeler Battery</a></li>
+                    <li><a class="d-block p-2 text-decoration-none text-dark hover-warning" href="products.html?category=UPS">UPS</a></li>
+                    <li><a class="d-block p-2 text-decoration-none text-dark hover-warning" href="products.html?category=UPS_Batteries">Ups Battery</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Category Buttons -->
+        <div id="category-buttons" class="mb-3 text-center"></div>
+
+    
+    
+        <!-- Product Display -->
+        <div id="product-list" class="row"></div>
+    </div>
+    
+    <script>
+   
+    </script>
+    <!-- Footer sectin -->
+    <div id="footer"></div>
+     <!-- Add Bootstrap Icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</body>
+</html>
+
+<script>
+let productData; // To store JSON data
+
+// Get category from URL parameters
+const urlParams = new URLSearchParams(window.location.search);
+const categoryFromUrl = urlParams.get('category');
+
+
+
+// Load JSON data
+fetch('products.json')
+    .then(response => response.json())
+    .then(data => {
+        productData = data.categories;
+        showCategories();
+        // Show products based on URL parameter or default to first category
+        showProducts(categoryFromUrl || Object.keys(productData)[0]);
+    })
+    .catch(error => console.error('Error loading JSON:', error));
+
+// Function to show category buttons
+function showCategories() {
+    let categoryButtons = document.getElementById("category-buttons");
+    categoryButtons.innerHTML = "";
+
+    for (let category in productData) {
+        categoryButtons.innerHTML += `
+            <button class="btn btn-outline-success m-1" onclick="showProductsAndUpdateUrl('${category}')">${category}</button>
+        `;
+    }
+}
+
+// Function to update URL and show products
+function showProductsAndUpdateUrl(category) {
+    // Update URL with selected category
+    const newUrl = `${window.location.pathname}?category=${category}`;
+    window.history.pushState({ category }, '', newUrl);
+    showProducts(category);
+}
+
+// Function to show current category name
+function showCategoryTitle(category) {
+    const titleElement = document.createElement('h3');
+    titleElement.className = 'text-center text-success mb-4 mt-3';
+    titleElement.textContent = category;
+    const productList = document.getElementById('product-list');
+    productList.parentNode.insertBefore(titleElement, productList);
+}
+
+// Update showProducts function to include category title
+const originalShowProducts = showProducts;
+showProducts = function(category) {
+    document.querySelectorAll('#product-list').forEach(el => {
+        const prevTitle = el.previousElementSibling;
+        if (prevTitle && prevTitle.tagName === 'H3') {
+            prevTitle.remove();
+        }
+    });
+    showCategoryTitle(category);
+    originalShowProducts(category);
+}
+
+// Function to show products of selected category
+function showProducts(category) {
+    if (!productData[category]) return;
+    let productList = document.getElementById("product-list");
+    productList.innerHTML = "";
+    productData[category].forEach(product => {
+        productList.innerHTML += `
+    </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow p-3 border-2">
+                <img src="${product.image}" class="card-img-top" alt="${product.name}" style="height: 300px; width: 100%;  "> 
+                <div class="card-body">
+                    <h5 class="card-title">${product.name}</h5>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="badge bg-warning">${product.brand}</span>
+                        <span class="text-success fw-bold">${product.price}/unit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        `;
+    });
+}
+</script> 
