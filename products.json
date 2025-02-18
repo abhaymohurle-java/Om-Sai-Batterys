@@ -1,0 +1,539 @@
+{
+    "categories": {
+      "Car Batteries": [
+        {
+          "name": "AMARON Four Wheeler Battery [AAM-FL-0BH40B20L, 12 Volts]",
+          "price": "₹3,000 - ₹9,000",
+          "image": "img/car battery/carBat1.webp",
+          "brand": "AMARON"
+        },
+        {
+          "name": "AMARON Four Wheeler Battery [AAM-FL-545106036 (DIN 44)]",
+          "price": "₹3,000 - ₹9,000",
+          "image": "img/car battery/carBat2.webp",
+          "brand": "AMARON"
+        },
+        {
+          "name": "AMARON Four Wheeler Battery [AAM-FL-550114042 (DIN 50R)]",
+          "price": "₹3,000 - ₹9,000",
+          "image": "img/car battery/carBat3.webp",
+          "brand": "AMARON"
+        },
+        {
+          "name": "AMARON Four Wheeler Battery [aam_fl_566112060_din60]",
+          "price": "₹3,000 - ₹9,000",
+          "image": "img/car battery/carBat4.webp",
+          "brand": "AMARON"
+        },
+        {
+          "name": "AMARON Four Wheeler Battery [AAM-FL-545106036 (DIN 45)]",
+          "price": "₹3,000 - ₹9,000",
+          "image": "img/car battery/carBat5.webp",
+          "brand": "AMARON"
+        },
+        {
+          "name": "AMARON Four Wheeler Battery [AAM-FL-00042B20R]",
+          "price": "₹3,000 - ₹9,000",
+          "image": "img/car battery/carBat6.webp",
+          "brand": "AMARON"
+        },
+        {
+          "name": "LUMINOUS Four Wheeler Battery [LIVFAST LFM 38B20R HH]",
+          "price": "₹3,000 - ₹9,000",
+          "image": "img/car battery/carBat7.webp",
+          "brand": "AMARON"
+        },
+        {
+          "name": "EXIDE Four Wheeler Battery [Mileage Red MREDDIN44LH]",
+          "price": "₹3,000 - ₹9,000",
+          "image": "img/car battery/carBat8.webp",
+          "brand": "AMARON"
+        },
+        {
+          "name": "EXIDE Four Wheeler Battery [Mileage Red MREDDIN44LH]",
+          "price": "₹3,000 - ₹9,000",
+          "image": "img/car battery/carBat9.webp",
+          "brand": "AMARON"
+        },
+        {
+          "name": "EXIDE Four Wheeler Battery [FMRO-MRED55D23L]",
+          "price": "₹3,000 - ₹9,000",
+          "image": "img/car battery/carBat10.webp",
+          "brand": "AMARON"
+        }
+      ],
+     "Flat Plate Batteries": [
+    {
+      "name": "LUMINOUS Inverlast Flat Plate Inverter Battery [IL 18000 XL]",
+      "price": "₹9,500 - ₹13,000 ",
+      "image": "img/flat battery/flatbatt1.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Inverlast Flat Plate Inverter Battery [IL 16000]",
+      "price": "₹9,500 - ₹13,000 ",
+      "image": "img/flat battery/flatbat2.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "luminous_inverlast_flat_plate",
+      "price": "₹9,500 - ₹13,000",
+      "image": "img/flat battery/flatbat3.webp",
+      "brand": "Luminous"
+    }
+  ],
+  "General Purpose Batteries": [
+    {
+      "name": "LUMINOUS Zelio 1100 Home UPS (0.9 KVA)",
+      "price": "₹9,500 - ₹13,000",
+      "image": "img/general battery/Genbat2.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "EXIDE Gelmagic Inverter Battery [FGM0-GelMagic 1500]",
+      "price": "₹9,500 - ₹13,000",
+      "image": "img/general battery/GEneralbat1.webp",
+      "brand": "EXIDE"
+    }
+  ],
+  "Industrial Inverter": [
+    {
+      "name": "LUMINOUS Home UPS 3.5 KVA Cruze+ High Capacity Inverter",
+      "price": "₹26,400 - ₹27,500",
+      "image": "img/industrial inverter/industrial inverter 1.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Home UPS 2 KVA Cruze+ High Capacity Inverter",
+      "price": "₹19,200 - ₹20,000",
+      "image": "img/industrial inverter/industrial inverter 2.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Home UPS 4 KVA Cruze+ High Capacity Inverter",
+      "price": "₹37,991 - ₹39,990",
+      "image": "img/industrial inverter/industrial inverter 2.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Regalia F1600 Sine Wave Inverter",
+      "price": "Ask For Price",
+      "image": "img/industrial inverter/industrial inverter 3.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Regalia F6410 Sine Wave Inverter",
+      "price": "Ask For Price",
+      "image": "img/industrial inverter/industrial inverter 4.webp",
+      "brand": "Luminous"
+    }
+  ],
+  "Inverter Batteries": [
+    {
+      "name": "LUMINOUS Red Charge RC 18000ST Inverter Batteries",
+      "price": "₹9,500 - ₹13,000",
+      "image": "img/inverter battery/inverterbat1.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS RED CHARGE RC18000 Inverter Batteries",
+      "price": "₹9,500 - ₹13,000",
+      "image": "img/inverter battery/inverterbat2.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS RC18000 Red Charge Inverter Batteries (150 MAh)",
+      "price": "₹9,500 - ₹13,000",
+      "image": "img/inverter battery/inverterbat3.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "AMARON AAM CR CRTT150 Inverter Batteries (150 MAh)",
+      "price": "₹9,500 - ₹13,000",
+      "image": "img/inverter battery/inverterbat4.webp",
+      "brand": "AMARON"
+    },
+    {
+      "name": "LUMINOUS Inverlast Tubular Inverter Battery [ILTT 18048]",
+      "price": "₹9,500 - ₹13,000",
+      "image": "img/inverter battery/inverterbat5.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Ecowatt 650 Inverter With IL18039 150Ah Battery",
+      "price": "₹9,500 - ₹13,000",
+      "image": "img/inverter battery/inverterbat6.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "EXIDE IM10000 Invamaster Inverter Battery",
+      "price": "₹9,500 - ₹13,000",
+      "image": "img/inverter battery/inverterbat7.webp",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "EXIDE Invatubular IT750 Invatubular Inverter Battery (200 MAh)",
+      "price": "₹9,500 - ₹13,000",
+      "image": "img/inverter battery/inverterbat8.webp",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "AMARON AAM CR CRTT165 Inverter Batteries (160 MAh)",
+      "price": "₹9,500 - ₹13,000",
+      "image": "img/inverter battery/inverterbat9.webp",
+      "brand": "AMARON"
+    },
+    {
+      "name": "AMARON AAM CR CRTT165 Inverter Batteries (160 MAh)",
+      "price": "₹9,500 - ₹13,000",
+      "image": "img/inverter battery/inverterbat10.webp",
+      "brand": "AMARON"
+    }
+  ],  "Home Inverter": [
+    {
+      "name": "LUMINOUS Zelio 1100 Home UPS (0.9 KVA)",
+      "price": "₹4,939 - ₹5,199",
+      "image": "img/home inverter/homeinvetr4.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Home UPS 700VA Eco Volt+ 850 Pure Sine Wave Inverter",
+      "price": "₹7,314 - ₹7,540",
+      "image": "img/home inverter/homeinvtr5.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Eco Vatt 650 Home UPS",
+      "price": "₹3,297 - ₹3,399",
+      "image": "img/home inverter/homeinvtr6.avif",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Eco Vatt 650 Home UPS",
+      "price": "₹3,297 - ₹3,399",
+      "image": "img/home inverter/homeinvtr7.avif",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS SOLAR NXG 1800 24V UPS",
+      "price": "₹7,314 - ₹7,699",
+      "image": "img/home inverter/homeinvtr8.avif",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS UPS Eco Volt+",
+      "price": "₹9,399 - ₹9,690",
+      "image": "img/home inverter/homeinvtr10.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Home UPS 900VA Zelio+ 1100",
+      "price": "₹9,500 - ₹10,000",
+      "image": "img/home inverter/homeinvtr13.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Home UPS 900VA Eco Volt+ 1050 Pure Sine Wave Inverter",
+      "price": "₹9,370 - ₹9,660",
+      "image": "img/home inverter/homeinvtr14.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Zolt 1100 Sine Wave Inverter For Home, Office & Shops (Blue)",
+      "price": "₹9,500 - ₹10,000",
+      "image": "img/home inverter/lumizelio hom invweter.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Zolt 1100 Sine Wave Inverter For Home, Office & Shops (Blue)",
+      "price": "₹9,500 - ₹10,000",
+      "image": "img/home inverter/homeinvertr3 (1).avif",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Home UPS 700VA Eco Volt+ 850 Pure Sine Wave Inverter",
+      "price": "₹7,314 - ₹7,540",
+      "image": "img/home inverter/homeinvtr14.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Cruze Plus [3.5KVA, 48Vdc]",
+      "price": "₹26,125 - ₹27,500",
+      "image": "img/home inverter/homeinvtr13.webp",
+      "brand": "Luminous"
+    }
+  ],
+  "Online UPS": [
+    {
+      "name": "LUMINOUS Line Interactive UPS Systems",
+      "price": "Ask For Price",
+      "image": "img/online ups/online ups1.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS LB-XL Series Line Interactive UPS (LB1000XL)",
+      "price": "Ask For Price",
+      "image": "img/online ups/online ups2.webp",
+      "brand": "Luminous"
+    }
+  ],
+  "Solar UPS": [
+    {
+      "name": "LUMINOUS NXG+ 1400 Solar Home UPS",
+      "price": "₹ 7,226 - ₹ 7,449",
+      "image": "img/solar ups/solarups1 (1).avif",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS NXG+ 750 Solar Home UPS Inverter",
+      "price": "₹ 6,013 - ₹ 6,199",
+      "image": "img/solar ups/solarups2.avif",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS NXG+ 1600 Solar Home UPS",
+      "price": "₹ 8,730 - ₹ 9,000",
+      "image": "img/solar ups/solarups3.avif",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS NXG+ 1100 Solar Home UPS",
+      "price": "₹ 9,695 - ₹ 9,995",
+      "image": "img/solar ups/solarups4.avif",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Eco Volt Neo 1250 UPS",
+      "price": "₹ 9,263 - ₹ 9,750",
+      "image": "img/solar ups/solarups5.webp",
+      "brand": "Luminous"
+    }
+  ],
+  "Tabular Batteries": [
+    {
+      "name": "LUMINOUS Inverlast Tubular Inverter Battery [ILT 14000XL]",
+      "price": "₹ 9,500 - ₹ 13,000",
+      "image": "img/tabular battery/tubular1.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Inverlast Tubular Inverter Battery [ILT 1218]",
+      "price": "₹ 9,500 - ₹ 13,000",
+      "image": "img/tabular battery/tubular2.webp",
+      "brand": "Luminous"
+    }
+  ],
+  "Two Wheeler Batteries": [
+    {
+      "name": "EXIDE Two Wheeler Battery FXL0 12XL5L B",
+      "price": "₹ 750 - ₹ 3,000",
+      "image": "img/twowheeler battery/bikebat1.avif",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "AMARON Two Wheeler Battery 9 AH AP-BTZ9L",
+      "price": "₹ 750 - ₹ 3,000",
+      "image": "img/twowheeler battery/bikebat2.avif",
+      "brand": "AMARON"
+    },
+    {
+      "name": "AMARON Pro Bike Rider Two Wheeler Battery - APBTZ9R (ABR-PR-APBTZ9R)",
+      "price": "₹ 3,297 - ₹ 3,399",
+      "image": "img/twowheeler battery/bikebat3.webp",
+      "brand": "AMARON"
+    },
+    {
+      "name": "EXIDE Two Wheeler Battery [FXL0-XLTZ7]",
+      "price": "₹ 750 - ₹ 3,000",
+      "image": "img/twowheeler battery/bikebat4.jpg",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "AMARON Pro Bike Rider Two Wheeler Battery - APBTZ7L (ABR-PR-APBTZ7L)",
+      "price": "₹ 750 - ₹ 3,000",
+      "image": "img/twowheeler battery/bikebat5.avif",
+      "brand": "AMARON"
+    },
+    {
+      "name": "EXIDE Two Wheeler Battery [FXL0-XLTZ5]",
+      "price": "₹ 750 - ₹ 3,000",
+      "image": "img/twowheeler battery/bikebat6.webp",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "AMARON Pro Bike Rider Two Wheeler Battery [ABR-PR-12APBTX90]",
+      "price": "₹ 750 - ₹ 3,000",
+      "image": "img/twowheeler battery/bikebat7.webp",
+      "brand": "AMARON"
+    },
+    {
+      "name": "EXIDE Two Wheeler Battery [FXL0-12XL5L-B]",
+      "price": "₹ 750 - ₹ 3,000",
+      "image": "img/twowheeler battery/bikebat8.webp",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "EXIDE Two Wheeler Battery [FXL0-XLTZ9]",
+      "price": "₹ 750 - ₹ 3,000",
+      "image": "img/twowheeler battery/bikebat9.webp",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "EXIDE Two Wheeler Battery [FXL0-12XL5L-B]",
+      "price": "₹ 750 - ₹ 3,000",
+      "image": "img/twowheeler battery/bikebat10.webp",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "AMARON Pro Bike Rider Two Wheeler Battery [ABR-PR-APBTZ5L]",
+      "price": "₹ 750 - ₹ 3,000",
+      "image": "img/twowheeler battery/bikebat11.webp",
+      "brand": "AMARON"
+    },
+    {
+      "name": "AMARON ABR-PR-APBTZ4L (3 Ah) Two Wheeler Batteries",
+      "price": "₹ 750 - ₹ 3,000",
+      "image": "img/twowheeler battery/bikebat12.webp",
+      "brand": "AMARON"
+    }
+  ],
+  "UPS": [
+    {
+      "name": "LUMINOUS Eco Vatt 650 Home UPS",
+      "price": "₹ 3,297 - ₹ 3,399",
+      "image": "img/ups/ups4.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS SOLAR NXG 1800 24V UPS",
+      "price": "₹ 7,314 - ₹ 7,699",
+      "image": "img/ups/ups5.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS UPSUPS/ BATTERIES LUMINOUS UPS Eco Volt+",
+      "price": "₹ 9,399 - ₹ 9,690",
+      "image": "img/ups/ups6.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Zolt 1100 Ups",
+      "price": "Ask For Price",
+      "image": "img/ups/ups11.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS UPS UPS/ BATTERIES LUMINOUS UPS Regalia W Series",
+      "price": "Ask For Price",
+      "image": "img/ups/ups12.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Cruze UPS",
+      "price": "Ask For Price",
+      "image": "img/ups/ups13.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS UPS UPS/ BATTERIES LUMINOUS UPS Shakti Charge",
+      "price": "Ask For Price",
+      "image": "img/ups/ups14.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Batteries Cruze 6KVA",
+      "price": "Ask For Price",
+      "image": "img/ups/ups15.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Solar UPS",
+      "price": "Ask For Price",
+      "image": "img/ups/ups16.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Electra Sq.1665 UPS",
+      "price": "Ask For Price",
+      "image": "img/ups/ups17.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Regalia 1.5KWh UPS",
+      "price": "Ask For Price",
+      "image": "img/ups/ups18.webp",
+      "brand": "Luminous"
+    },
+    {
+      "name": "LUMINOUS Pro 600 600VA UPS PRO UPS",
+      "price": "₹ 2,371 - ₹ 2,522",
+      "image": "img/ups/ups19.webp",
+      "brand": "Luminous"
+    }
+  ],
+  "UPS_Batteries": [
+    {
+      "name": "AMARON Current 150AH Inverter UPS Battery",
+      "price": "₹ 12,960 - ₹ 13,500",
+      "image": "img/ups battery/upsbat1.avif",
+      "brand": "AMARON"
+    },
+    {
+      "name": "EXIDE Powersafe Battery Original Replacement For UPS Battery [12v 7Ah]",
+      "price": "₹ 1,067 - ₹ 1,100",
+      "image": "img/ups battery/upsbat2.avif",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "EXIDE 150Ah Inverter UPS Battery",
+      "price": "₹ 16,320 - ₹ 17,000",
+      "image": "img/ups battery/upsbat3.webp",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "EXIDE Higher KVA 5.2KVA UPS Battery",
+      "price": "Ask For Price",
+      "image": "img/ups battery/upsbat4.webp",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "EXIDE Higher KVA 3.5KVA UPS Battery",
+      "price": "Ask For Price",
+      "image": "img/ups battery/upsbat5.avif",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "EXIDE Higher KVA 10KVA UPS Battery",
+      "price": "Ask For Price",
+      "image": "img/ups battery/upsbat6.avif",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "EXIDE Higher KVA 2.5KVA UPS Battery",
+      "price": "Ask For Price",
+      "image": "img/ups battery/upsbat7.avif",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "EXIDE Higher KVA 2KVA UPS Battery",
+      "price": "Ask For Price",
+      "image": "img/ups battery/upsbat8.webp",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "EXIDE Higher KVA 7.5KVA UPS Battery",
+      "price": "Ask For Price",
+      "image": "img/ups battery/upsbat9.avif",
+      "brand": "EXIDE"
+    },
+    {
+      "name": "EXIDE Higher KVA 12KVA UPS Battery",
+      "price": "Ask For Price",
+      "image": "img/ups battery/upsbat10.webp",
+      "brand": "EXIDE"
+    }
+  ]
+    }
+    
+  }
+  
